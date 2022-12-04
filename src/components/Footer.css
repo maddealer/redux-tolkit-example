@@ -1,0 +1,8 @@
+.footer{
+    background-color: blueviolet;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    color: beige;
+    flex-direction: column;
+}
