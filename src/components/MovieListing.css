@@ -1,8 +1,8 @@
-.movie-list{
+.movie-list,.show-list{
     margin: 20px 0px;
 }
-.movie-list > h2{
-    color:rgb(0, 23, 140);
+.movie-list,.show-list > h2{
+    color:#0d101e;
     margin-bottom: 10px;
     font-weight: 400;
 }
