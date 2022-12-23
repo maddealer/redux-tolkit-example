@@ -6,10 +6,11 @@ import {
 } from "../features/movies/movieSlice";
 import { useDispatch } from "react-redux/es/exports";
 const Home = () => {
+  const termFirst = "star";
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchAsyncMovies());
-    dispatch(fetchAsyncShows());
+    dispatch(fetchAsyncMovies(termFirst));
+    dispatch(fetchAsyncShows(termFirst));
   }, [dispatch]);
   return (
     <div>

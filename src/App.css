@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
-a{text-decoration: none;}
+a{text-decoration: none; color: rgb(79, 79, 61);}
 
 .container{
   margin: 0 40px;
   
+}
+.App{
+  background-color: #2b2f30;
 }
 
